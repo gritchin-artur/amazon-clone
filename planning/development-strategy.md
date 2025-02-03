@@ -1,55 +1,77 @@
-# Project Name
+# HYF Website
 
 <!-- describe your project -->
+
+This project is to reverse engineer the
+[Amazone website]([https:www.amazon.com).
 
 ---
 
 ## Setup
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+- Create a new rep
+- Clone the repo to a local machine
+- Create branches for each issue
 
 ---
 
-<!-- copy this section once for each must-have user story -->
+## Main page
 
-## user story
+### Navigation bar
 
-<!-- each issue created from this section will have the `for: user story` label -->
+This feature develops on a branch `navigation-bar`.
 
-> "as a ... i can ... so that ..."
+#### HTML
 
-<!-- write any extra notes or description -->
+- Add `div` class="nav-bar"
+- Add `div` for logo on the left and content on the right
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+#### CSS
 
-### Logic: user story
+- Add style to nav-bar
+- Add style to logo
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Slide bar section
 
-### Interface: user story
+This feature develops on a branch `slide-bar`.
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### HTML
 
-### Interaction: user story
+- Add `div` to create a main container
+- Add `ul` to add heading
+- Add `li` to add ul
+- Add `img`
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+#### CSS
 
-### Documentation: user story
+- Add style to hero container
+- Add style to body
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+### Recommended goods
+
+This feature develops on a branch `recommended-goods`.
+
+#### HTML
+
+- Add `div` class="recommended-goods-container"
+- Add `ul` inside div
+- Add `li` inside ul
+
+#### CSS
+
+- Add style to recommended-goods-container
+
+### Footer
+
+This feature develops on a branch `footer`.
+
+#### HTML
+
+- Add `div` for the footer section
+- Add `div` to create two grids
+- Add `div` to create three vertical grid
+
+#### CSS
+
+- Add style to footer container
+- Add style to grids
