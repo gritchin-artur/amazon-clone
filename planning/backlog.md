@@ -6,14 +6,15 @@ A collection of user who want to buy anything online
 
 > these are necessary for basic usability
 
-- As a user, I need a `navbar` with the Amazon logo and search functionality so
-  I can easily navigate the website and find products.
+- As a user, I need a `navbar` to display beautiful pictures of products.
 
-- As a user, I need a `main-content` area displaying personalized
-  recommendations, trending products, and deals so I can discover items of
-  interest.
+- As a user, I need a `slide-bar` area displaying personalized recommendations,
+  trending products, and deals so I can discover items of interest.
 
-- As a user, I need a footer containing links to customer service, account
+- As a user, I need a `recommended-goods` to view randomly selected recommended
+  products.
+
+- As a user, I need a `footer` containing links to customer service, account
   details, and company information so I can access support and learn more about
   Amazon.
 
@@ -34,5 +35,4 @@ A collection of user who want to buy anything online
   - As a user, I want to see `testimonials` from other shoppers so I can feel
     confident in my purchasing decisions
 
-  - As a user, I would appreciate `interactive-elements` like quick view pop-ups
-    or dynamic filters to enhance my shopping experience.
+  - As a user, I want to use responsive design.
