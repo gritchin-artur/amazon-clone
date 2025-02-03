@@ -1,17 +1,7 @@
 # Design
 
-## Project's design overview
+## Landing page
 
-> Give an overview of your project's design
+<https://excalidraw.com/#json=gjhI-Wl1OR-pGBHqwEgvc,vvtx4au5MmthiM_R1DL6rg>
 
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
-
-## Wireframe(s)
-
-> Include your wireframe(s) and link to wireframe
-
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+![Landing page](./img/design-amason-page.png)
