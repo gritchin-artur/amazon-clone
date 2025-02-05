@@ -1,12 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>project!</title>
+
+  <link href="./styles/index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="upper-nav-bar">
+      <ul class="upper-nav-bar-list">
+        <li>
+          <div class="amazon-logo"></div>
+        </li>
+        <li>
+          <div class="location-img"></div>
+          <div class="location-container">
+            <p>Deliver to</p>
+            <h3>Belgium</h3>
+          </div>
+        </li>
+        <li>
+          <form class="select-form">
+            <div>
+              <select aria-describedby="searchDropdownDescription"
+                class="nav-search-dropdown searchSelect nav-progressive-attrubute nav-progressive-search-dropdown"
+                data-nav-selected="0" id="searchDropdownBox" name="url" tabindex="0" title="Search in">
+                <option selected="selected" value="search-alias=aps">
+                  All
+                </option>
+                <option value="search-alias=arts-crafts-intl-ship">
+                  Arts &amp; Crafts
+                </option>
+                <option value="search-alias=automotive-intl-ship">
+                  Automotive
+                </option>
+                <option value="search-alias=baby-products-intl-ship">
+                  Baby
+                </option>
+                <option value="search-alias=beauty-intl-ship">
+                  Beauty &amp; Personal Care
+                </option>
+                <option value="search-alias=strip-books-intl-ship">
+                  Books
+                </option>
+                <option value="search-alias=fashion-boys-intl-ship">
+                  Boys' Fashion
+                </option>
+                <option value="search-alias=computers-intl-ship">
+                  Computers
+                </option>
+                <option value="search-alias=deals-intl-ship">Deals</option>
+                <option value="search-alias=digital-music">
+                  Digital Music
+                </option>
+                <option value="search-alias=electronics-intl-ship">
+                  Electronics
+                </option>
+                <option value="search-alias=fashion-girls-intl-ship">
+                  Girls' Fashion
+                </option>
+                <option value="search-alias=hpc-intl-ship">
+                  Health &amp; Household
+                </option>
+                <option value="search-alias=kitchen-intl-ship">
+                  Home &amp; Kitchen
+                </option>
+                <option value="search-alias=industrial-intl-ship">
+                  Industrial &amp; Scientific
+                </option>
+                <option value="search-alias=digital-text">
+                  Kindle Store
+                </option>
+                <option value="search-alias=luggage-intl-ship">
+                  Luggage
+                </option>
+                <option value="search-alias=fashion-mens-intl-ship">
+                  Men's Fashion
+                </option>
+                <option value="search-alias=movies-tv-intl-ship">
+                  Movies &amp; TV
+                </option>
+                <option value="search-alias=music-intl-ship">
+                  Music, CDs &amp; Vinyl
+                </option>
+                <option value="search-alias=pets-intl-ship">
+                  Pet Supplies
+                </option>
+                <option value="search-alias=instant-video">
+                  Prime Video
+                </option>
+                <option value="search-alias=software-intl-ship">
+                  Software
+                </option>
+                <option value="search-alias=sporting-intl-ship">
+                  Sports &amp; Outdoors
+                </option>
+                <option value="search-alias=tools-intl-ship">
+                  Tools &amp; Home Improvement
+                </option>
+                <option value="search-alias=toys-and-games-intl-ship">
+                  Toys &amp; Games
+                </option>
+                <option value="search-alias=video-games-intl-ship">
+                  Video Games
+                </option>
+                <option value="search-alias=fashion-women's-intl-ship">
+                  Women's Fashion
+                </option>
+              </select>
+              <i class="nav-icon"></i>
+            </div>
+            <input type="text" placeholder="Search Amazon" />
+            <input class="nav-search-submit-button" type="submit" value="Go" tabindex="0" />
+          </form>
+        </li>
+        <li>
+          <div>
+            <i class="flag-img"></i>
+            <p class="languages">EN</p>
+            <span class="arrow-down-img"></span>
+          </div>
+        </li>
+        <li>
+          <div class="account-container-main">
+            <p>Hello, sign in</p>
+            <div class="account-container">
+              <h3>Account &amp; Lists</h3>
+              <span class="arrow-down-img"></span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="account-container-main">
+            <p>Returns</p>
+            <h3>&amp; Orders</h3>
+          </div>
+        </li>
+        <li>
+          <div>
+            <span class="number-img">0</span>
+            <i class="basket-img"></i>
+          </div>
+          <p class="basket-cart">Cart</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="down-nav-bar">
+      <ul class="down-nav-bar-list">
+        <li class="down-nav-bar-item">
+          <i></i>
+          <h3>All</h3>
+        </li>
+        <li class="down-nav-bar-item">
+          <p class="down-nav-bar-text">Today's Deals</p>
+        </li>
+        <li class="down-nav-bar-item">
+          <p class="down-nav-bar-text">Customer Service</p>
+        </li>
+        <li class="down-nav-bar-item">
+          <p class="down-nav-bar-text">Registry</p>
+        </li>
+        <li class="down-nav-bar-item">
+          <p class="down-nav-bar-text">Gift Cards</p>
+        </li>
+        <li class="down-nav-bar-item">
+          <p class="down-nav-bar-text">Sell</p>
+        </li>
+      </ul>
+    </div>
+  </header>
+</body>
+
 </html>
