@@ -33,6 +33,8 @@ The app will be available at <http://localhost:3000/> (or the configured port).
 
 📷 Screenshots
 
+![Amazon Clone](planning/screenshot.jpg)
+
 🔮 Future Improvements
 
 ✅ Real payment integration (Stripe, PayPal, etc.) ✅ User profile management ✅

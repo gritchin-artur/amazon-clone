@@ -1,3 +1,387 @@
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("../planning/fonts/amazon-ember-webfont/Amazon\ Ember.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-font: "Amazon Ember", arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav-bar */
+
+.upper-nav-bar {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+}
+
+.upper-nav-bar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.amazon-logo {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+  background-size: 350px;
+  margin-top: 11px;
+  pointer-events: none;
+  float: left;
+  text-indent: -500px;
+  background-position: -9px -125px;
+  width: 98px;
+  height: 34px;
+}
+
+.location-img {
+  background-image: url("../planning/img/nav-bar-img/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+  background-size: 350px;
+  background-position: -71px -378px;
+  width: 15px;
+  height: 18px;
+  margin-top: 8px;
+}
+
+.location-container {
+  display: block;
+}
+
+.location-container p,
+h3 {
+  font-family: var(--main-font);
+}
+
+.location-container p {
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  color: #ccc;
+  margin-top: 0;
+  padding-right: 0;
+}
+
+.upper-nav-bar-list li:nth-child(2) p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.location-container h3 {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 0;
+  padding-right: 0;
+}
+
+.upper-nav-bar-list li {
+  padding: 9px;
+}
+
+.upper-nav-bar-list li:nth-child(2) {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 5px;
+}
+
+.upper-nav-bar-list li:nth-child(3) {
+  display: flex;
+  align-items: center;
+}
+
+.select-form {
+  display: flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e6e6e6;
+  border-left: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  height: 40px;
+  margin: 0;
+  padding-left: 5px;
+  overflow: hidden;
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+  width: 100%;
+  flex: 1;
+}
+
+.select-form div {
+  display: flex;
+  align-items: center;
+  padding-right: 8px;
+}
+
+.select-form:focus-within {
+  border: 3px solid orange;
+}
+
+select {
+  all: unset;
+  width: 25px;
+  height: 40px;
+  font-family: inherit;
+  color: grey;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 0;
+}
+
+.nav-icon {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png");
+  background-position: 0 1000px;
+  background-repeat: repeat-x;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  border-top: 4px solid #666;
+  border-bottom-width: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.select-form input[type="text"] {
+  border: none;
+  width: 52vw;
+}
+
+.select-form input:hover,
+.select-form input:focus {
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.select-form input::placeholder {
+  font-family: var(--main-font);
+  font-size: medium;
+}
+
+.nav-search-submit-button {
+  display: flex;
+  background-color: #febd69;
+  border: none;
+  width: 45px;
+  height: auto;
+  background-position: 2px -280px;
+  text-indent: -500px;
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+  background-size: 350px;
+}
+
+.upper-nav-bar-list li:nth-child(4) {
+  padding-bottom: 5px;
+}
+
+.upper-nav-bar-list li:nth-child(4) div {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 3px;
+  padding-top: 6px;
+}
+
+.languages {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.flag-img {
+  background-image: url("../planning/img/nav-bar-img/EZ7BoVI$-KcNmTV.png");
+  background-size: 194px 295px;
+  background-position: 0 -130px;
+  display: flex;
+  width: 22px;
+  height: 16px;
+}
+
+.arrow-down-img {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png");
+  background-position: 0 1000px;
+  background-repeat: repeat-x;
+  border-style: solid;
+  border-width: 4px;
+  border-color: transparent;
+  border-top: 4px solid #666;
+  border-bottom-width: 0;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.upper-nav-bar-list li:nth-child(5),
+.upper-nav-bar-list li:nth-child(6) {
+  display: flex;
+  align-items: center;
+}
+
+.upper-nav-bar-list li:nth-child(5) p,
+.upper-nav-bar-list li:nth-child(6) p {
+  font-family: var(--main-font);
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.account-container {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.upper-nav-bar-list li:nth-child(5) h3,
+.upper-nav-bar-list li:nth-child(6) h3 {
+  font-family: var(--main-font);
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.upper-nav-bar-list li:nth-child(7) {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.number-img {
+  left: 22px;
+  top: 16px;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  color: #f08804;
+  font-size: 16px;
+  width: 19px;
+  font-weight: 700;
+  font-family: inherit;
+  position: absolute;
+  line-height: 16px;
+  text-align: center;
+}
+
+.basket-img {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+  background-size: 350px;
+  background-position: -10px -340px;
+  width: 38px;
+  height: 26px;
+  display: flex;
+}
+
+.basket-cart {
+  font-family: var(--main-font);
+  font-size: 12px;
+  line-height: 14px;
+  color: #fff;
+  margin-bottom: inherit;
+}
+
+/* down-nav-bar */
+
+.down-nav-bar {
+  width: 100vw;
+  padding-left: 22px;
+  background-color: #232f3e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.down-nav-bar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.1vw;
+  align-items: center;
+}
+
+.down-nav-bar-item {
+  font-family: var(--main-font);
+  color: #fff;
+}
+
+.down-nav-bar-text {
+  margin: 0;
+}
+
+.down-nav-bar-list li:nth-child(1) {
+  display: flex;
+}
+
+.down-nav-bar-list li:nth-child(1) i {
+  background-image: url("https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB541706272_.png");
+  background-size: 350px;
+  width: 17px;
+  height: 14px;
+  background-position: -172px -255px;
+  display: flex;
+  position: static;
+  float: none;
+}
+
+.down-nav-bar-list li:nth-child(1) h3 {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  padding-left: 5px;
+  white-space: nowrap;
+}
+
+@media (width > 425px) {
+  .select-form input[type="text"] {
+    width: 5vw;
+  }
+}
+
+@media (width > 768px) {
+  .select-form input[type="text"] {
+    width: 25vw;
+  }
+}
+
+@media (width > 1024px) {
+  .select-form input[type="text"] {
+    width: 45vw;
+  }
+}
+
+@media (width > 1440px) {
+  .select-form input[type="text"] {
+    width: 55vw;
+  }
 }
