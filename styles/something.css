@@ -362,6 +362,161 @@ select {
   white-space: nowrap;
 }
 
+/* slide-bar-section */
+
+main {
+  padding: 0 15vw;
+  background: #e3e6e6;
+}
+
+.slide-bar-section {
+  background-image: url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+  width: 70vw;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.slide-bar-arrow-left {
+  background-image: url("https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png");
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 68px 52px;
+  width: 34px;
+  height: 52px;
+  outline: 0;
+}
+
+.slide-bar-arrow-right {
+  background-image: url("https://m.media-amazon.com/images/S/sash/ydDD9hnRfziI$y7.png");
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 68px 52px;
+  background-position: -34px 0;
+  width: 34px;
+  height: 52px;
+  outline: 0;
+}
+
+.slide-bar-arrow-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 7vw 2vw;
+}
+
+.recommended-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 16vw);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1vw;
+  width: 100%;
+  margin: 0;
+  padding: 1vw;
+  justify-content: center;
+}
+
+.recommended-list-item {
+  flex: 1;
+  background: #fff;
+  padding: 1vw;
+  height: fit-content;
+  height: 100%;
+  align-items: stretch;
+  display: grid;
+}
+
+.recommended-list-item-title {
+  font-family: var(--main-font);
+  font-size: 1vw;
+}
+
+.sub-item-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  width: 100%;
+  margin: 0;
+  padding: 1vw 0;
+}
+
+.sub-item-img {
+  width: 7vw;
+}
+
+.sub-item-img-description {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  font-size: 0.6vw;
+}
+
+.button-see-more {
+  font-family: var(--main-font);
+  color: #2162a1;
+  font-size: 0.6vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 1vw;
+}
+
+.shop-gaming-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shop-gaming-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 1.4vw;
+}
+
+.sub-item-list-1-3 {
+  list-style: none;
+  display: grid;
+  grid-template-areas:
+    "area1 area1 area1"
+    "area2 area3 area4";
+  row-gap: 1vw;
+  width: 100%;
+  padding: 1vw 0;
+}
+
+.sub-item-element-1-3 {
+  width: 100%;
+}
+
+.sub-item-element-1-3:nth-child(1) {
+  grid-area: area1;
+}
+
+.sub-item-element-1-3:nth-child(2) {
+  grid-area: area2;
+}
+
+.sub-item-element-1-3:nth-child(3) {
+  grid-area: area3;
+}
+
+.sub-item-element-1-3:nth-child(4) {
+  grid-area: area4;
+}
+
+.sub-item-img-1-3 {
+  width: 4.5vw;
+}
+
+.sub-item-element-1-3:nth-child(1) img {
+  width: 14vw;
+}
+
 @media (width > 425px) {
   .select-form input[type="text"] {
     width: 5vw;

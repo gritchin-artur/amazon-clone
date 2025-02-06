@@ -17,7 +17,8 @@
     "wireframe",
     "Amazone",
     "Duospace",
-    "webfont"
+    "webfont",
+    "Décor"
   ],
   "ignorePaths": [
     "node_modules/**",
