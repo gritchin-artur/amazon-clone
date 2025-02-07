@@ -18,7 +18,15 @@
     "Amazone",
     "Duospace",
     "webfont",
-    "Décor"
+    "Décor",
+    "Artur",
+    "Hrytchyn",
+    "Goodreads",
+    "Veeqo",
+    "Audiobook",
+    "Shopbop",
+    "Woot",
+    "eero"
   ],
   "ignorePaths": [
     "node_modules/**",
